@@ -1,17 +1,13 @@
 <?php
 
 
-$name = 'reza';
-$month = 30;
-$mon = 1500000;
+$a=10;
+$b=20;
 
+function sum ($num,$num1){
+    return $num+$num1;
 
-echo $name." ".$month." ".$mon ;
-
-
-function salary(){
-    echo "reza : " . "20000000";
 }
 
-salary()
+echo sum($a,$b);
 ?>
